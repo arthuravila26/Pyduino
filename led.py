@@ -1,3 +1,5 @@
+#It makes the light on connection 13 turn on for 1 sec and off for 1 sec.
+#Each time it turn on, the terminal will count 1 till 5 as it is in the loop.
 from pyfirmata import Arduino, util
 import time
 
